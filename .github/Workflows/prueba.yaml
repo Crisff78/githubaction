@@ -1,8 +1,0 @@
-name: Prueba1 
-on: [push]
-jobs:
-   Hola:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Hola chicos de Informatica
-        run: echo "Bienvenidos a Despliegue Automatizado"
