@@ -1,12 +1,15 @@
-#yaml
-name: Basic WorkFlow
+name: Basic workflow
+
 on:
   push:
-    branches: basico-workflows
-    jobs:
-    do-things:
-      name: Do Things
-      runs.on: ubuntu-lastest
-      steps:
-       - name: Logrado
-          run: echo "Logrado"
+    branches:
+      - basico-workflow
+
+jobs:
+  do-things:
+    name: Do Things
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Logrado
+        run: echo "Logrado"
