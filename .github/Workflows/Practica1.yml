@@ -1,4 +1,4 @@
-name: Basic Workflow
+name: Basic workflow
 
 on:
   push:
